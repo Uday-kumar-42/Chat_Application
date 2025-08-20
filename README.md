@@ -1,4 +1,3 @@
-```markdown
 # 🗨️ Chat Application (Frontend + Backend)
 
 A real-time chat application built with **Node.js**, **WebSocket (ws)**, and **MongoDB** authentication. This application supports creating chat rooms, joining rooms, sending messages, managing members, and leaving rooms, all in real-time.
@@ -20,10 +19,11 @@ A real-time chat application built with **Node.js**, **WebSocket (ws)**, and **M
 
 ### Tech Stack
 
-* **Backend:** Node.js, WebSocket (ws)
-* **Database:** MongoDB (for authentication)
-* **Authentication:** Username + password stored in MongoDB
-* **Frontend:** React (optional, not included in this snippet)
+* **Backend:** [Node.js](https://nodejs.org/)
+* **WebSockets:** [`ws` library]([https://github.com/websockets/ws](https://github.com/websockets/ws))
+* **Database:** [MongoDB](https://www.mongodb.com/)
+* **Authentication:** [JWT (JSON Web Tokens)](https://jwt.io/)
+* **Frontend:** [React](https://reactjs.org/) (optional, not included in this snippet)
 
 ---
 
@@ -48,7 +48,7 @@ A real-time chat application built with **Node.js**, **WebSocket (ws)**, and **M
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
+    git clone https://github.com/[your-username]/[your-repo-name].git
     cd [your-repo-name]
     ```
 2.  **Install dependencies:**
@@ -162,6 +162,5 @@ Here’s how the server expects messages from the client:
 
 ### Author
 
-Developed by **[Uday Kumar Pampana]**
-[GitHub Profile](https://github.com/Uday-kumar-42)
+Developed by **[Uday Kumar Pampana]** [GitHub Profile](https://github.com/Uday-kumar-42)
 ````
