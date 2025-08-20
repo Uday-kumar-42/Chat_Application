@@ -1,0 +1,30 @@
+# --- Node / JS ---
+**/node_modules/
+**/dist/
+**/build/
+**/.parcel-cache/
+**/.next/
+**/.nuxt/
+**/.vite/
+**/.cache/
+
+# --- Env files (keep only examples in git) ---
+**/.env
+**/.env.local
+**/.env.*.local
+**/.env.development
+**/.env.production
+!**/.env.example
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
